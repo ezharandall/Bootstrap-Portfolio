@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ezha Randall - About</title>
+  <title>Contact Ezha</title>
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -11,11 +11,6 @@
    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style>
-/*@media screen and (max-width: 980px) and (min-width: 640px) {
-    ul li a {
-        padding-left: 30px;
-        background: url(email-icon.png) left center no-repeat;
-    }*/
 
   .container {
   background-image: url("https://github.com/ezharandall/Basic_Portfolio/blob/master/assets/images/body_background.png?raw=true");
@@ -23,7 +18,6 @@
     height: 800px;
     border: 1px solid black;
     margin: 5px 10px 5px 10px solid black;
-
 
   
 }
@@ -39,7 +33,7 @@
       
        }
 
-  /*.connectWithMe*/ 
+    /*.connectWithMe*/ 
   .panel-default{
       clear: both;
   overflow: auto;
@@ -59,36 +53,10 @@
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-   
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-
- /* }
-
-  .panel-body {*/
-    padding: 3px 3px 3px 3px;
   }
 
   .navbar-default {
     background-color: white;
-
   }
 
   .navbar-brand { 
@@ -98,30 +66,17 @@
     margin-left: 150px;
     color: white;
     }
-  .navbar-fixed-bottom {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-}
-/*.panel-footer {
-  padding-top: 60px;
-    height: 100px;
-    bottom: 100%;
-    width: 100%;
 
-}*/
 </style>
 <body>
   <nav class="navbar navbar-default">
-
    
       <div class="navbar-header">
         <h1 class="navbar-brand" href="#">Ezha Randall</h1>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="../Basic_Portfolio/index.html" target="_blank">About</a></li>
+          <li><a href="../Basic_Portfolio/index.html#" target="_blank">About</a></li>
           <li><a href="../Basic_Portfolio/portfolio.html" target="_blank">Portfolio</a></li>
           <li><a href="../Basic_Portfolio/contact.html" target="_blank">Contact</a></li>
         </ul>
@@ -131,20 +86,22 @@
   <div class="container">
   <div class="imgSelf">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-sm-12">
         <div class="page-header">
-          <h2><div class="panel-heading"><strong>About Me</strong></div></h2>
+          <h2><div class="panel-heading"><strong>Contact</strong></div></h2>
         </div>
         
         
-            <a><img src="https://github.com/ezharandall/Basic_Portfolio/blob/master/assets/images/profile_pic.jpg?raw=true" height="138px" width="184px" align="left" ></a>
-          
-              <p><div>       
-              Welcome to my Portfolio! My name is Ezha Randall. I am married with 3 children. I'm originally from Silver Spring, MD. I'm also a US Army Veteran. I served in Operation Enduring Freedom in Kuwait in 2002, and I also served in Operation Iraqi Freedom from April 2003-2004. I'm currently a Software Engineer for a Non-Profit, Government Contractor.</p> 
-            
-            <p>
-            Fun fact: I love D.C. sports. Redskins, Wizards, Capitals, and Nationals!
-          </p></div> 
+            <form action="/action_page.php">
+  Name<br>
+  <input type="text" name="name" value="Enter Name Here">
+  <br>
+  Email<br>
+  <input type="text" name="email" value="example@gmail.com">
+  <br><br>
+  Message<textarea rows='8' cols='50'>Your message</textarea>
+  <input type="submit" value="Submit">
+</form>
           
           </div>
           </div>
@@ -168,22 +125,15 @@
            <div> <a href="https://stackoverflow.com/users/7939331/ezha-randall?tab=profile" target=" blank"><img src="https://github.com/ezharandall/Basic_Portfolio/blob/master/assets/images/stackoverflow_logo.png?raw=true" height="57px" width="57px" align="left"></a></div>
           </div>
         </div>
-     <!--  </div> --><!-- <div class="panel-footer">Panel Footer</div> -->
-      <!-- </div>
- <footer class="footer">
- <div class="container">
-     <div class="row">
-      <div class="col-xs-12">
- <p class="text-muted">Place sticky footer here.</p>
- </div>
- </footer> -->
+     <!--  </div> -->
+      </div>
+ 
   
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Bootstrap JavaScript CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+  </div>
 </div>
 </body>
 </html>
